@@ -1,0 +1,26 @@
+Hash Table
+
+a hash table is a data structure that maps keys to values for highly efficient lookups
+
+Linked List Implementation
+
+1) compute key values hash code
+
+2) map the hash code into index of array using hash(key) % array length
+
+3) at that index there is a linked list of keys and values. Linked list is used
+in the case of a collision
+
+
+Arrays and Resizable lists
+- in some languages arrays are automatically Resizable, the array or list will grow
+as items are appended on. Other languages like java are a fixe length
+
+- an ArrayList in java automatically offers dynamic resizing when the array is full double in size
+
+Array Declarations
+c/c++: int name [10] = {};
+
+java: int [] name; or int name[]; ArrayList<String> sentence = new ArrayList<String>();
+
+python: variable = [] #this creates a list really but its resizable
